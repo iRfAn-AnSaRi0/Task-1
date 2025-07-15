@@ -97,7 +97,8 @@ Add your MongoDB connection string:
 
 ```env
 MONGO_URI=mongodb+srv://youruser:yourpassword@cluster.mongodb.net/leaderboard
-PORT=5000
+PORT=8000
+CORS_ORIGINS=http://localhost:5173
 ```
 
 ---
