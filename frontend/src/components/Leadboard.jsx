@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../api/baseApi";
+import api from "../api/BaseApi";
 import { Dialog } from "@headlessui/react";
 
 export default function Leadboard() {
